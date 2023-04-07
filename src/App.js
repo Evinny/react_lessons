@@ -15,14 +15,19 @@ function Fotinha(props){
 
 function App() {
   return (
+
     <div>
-      <Fotinha />
-      <center>
-      <Header />
-      <Main nome='vermelho ta bom' genero='sim' />
-      <Sidebar />
-      </center>
+      <Button />
     </div>
+
+    // <div>
+    //   <Fotinha />
+    //   <center>
+    //   <Header />
+    //   <Main nome='vermelho ta bom' genero='sim' />
+    //   <Sidebar />
+    //   </center>
+    // </div>
   )
 }
 

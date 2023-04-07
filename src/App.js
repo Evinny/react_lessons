@@ -1,21 +1,25 @@
 import logo from './logo.svg';
 import './App.css';
-
+import image from './fotinha.png';
 
 
 import Header from './components/Header';
 import Main from './components/Main';
 import Sidebar from './components/Sidebar';
+import Button from './components/Button';
 
-
+function Fotinha(props){
+  const $foto = <img src={image}/>
+  return $foto;
+}
 
 function App() {
   return (
     <div>
+      <Fotinha />
       <center>
       <Header />
-      <Main nome='macaco gordo alemao do oriundo da minha azuleija nacional azul aaaave marioa the quick brown 
-      fox jumps over the lazy dog' genero='sim' />
+      <Main nome='vermelho ta bom' genero='sim' />
       <Sidebar />
       </center>
     </div>
